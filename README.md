@@ -16,7 +16,7 @@
 | 🔟          | 🔁 **Scheduled Refresh**                               | Setup of Power BI Gateway and refresh schedule for real-time updates. |
 | 1️⃣1️⃣        | 📌 **Dashboard Sharing**                               | Post-refresh, share the dashboard based on the specific requirements of the stakeholders. This section will outline how the dashboard can be shared with relevant teams or individuals. |
 | 1️⃣2️⃣        | 📌 **Conclusion**                                      | Wrap-up with key benefits and how the dashboard impacts decision-making. |
-| 1️⃣3️⃣        | 👨‍💻 **About the Author**                                     | Your details (name, contact, LinkedIn) for credit or reference. |
+| 1️⃣3️⃣        | 👨‍💻 **About the Author**                                     | Your details (name, contact, LinkedIn, Medium) for credit or reference. |
 
 ---
 
