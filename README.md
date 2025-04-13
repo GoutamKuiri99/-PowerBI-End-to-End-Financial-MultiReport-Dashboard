@@ -1,5 +1,30 @@
 # 📊 PowerBI-End-to-End-Financial-MultiReport-Dashboard
 
+## 📘 Content Flow Table
+
+| **Section** | **Content Title**                                      | **Purpose / Description**                                                                                 |
+|-------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| 1️⃣          | 📌 **Business Problem**                                | Explain the challenge the company faced with scattered financial data, lack of insights, and poor decision-making capability. |
+| 2️⃣          | 🎯 **Project Overview**                                | Introduce the Power BI dashboard project and its purpose — a unified platform for financial monitoring. |
+| 3️⃣          | 🎯 **Objectives**                                      | List clear, measurable goals like centralization, trend identification, and improved visibility. |
+| 4️⃣          | 📚 **Table of Contents**                               | A structured index of report pages and what each one covers. Helps navigation. |
+| 5️⃣          | 📁 **Data Sources**                                    | List Excel files used and their role in building the dashboard. |
+| 6️⃣          | 🖼️ **Report Pages with Screenshots & Explanation**    | Visually showcase each report page (Overview, Revenue, Expenses, etc.) with explanations. |
+| 7️⃣          | 🛠️ **Key Dashboard Features**                          | Highlight special functionalities: drillthrough, slicers, DAX time intelligence, responsive layout. |
+| 8️⃣          | ⚙️ **Tech Stack**                                      | Technologies and tools involved (Power BI, Excel, Power Query, DAX). |
+| 9️⃣          | 🔐 **Security**                                        | Describe implementation of Row-Level and Page-Level Security. |
+| 🔟          | 🔁 **Scheduled Refresh**                               | Setup of Power BI Gateway and refresh schedule for real-time updates. |
+| 1️⃣1️⃣        | 📌 **Dashboard Sharing**                               | Post-refresh, share the dashboard based on the specific requirements of the stakeholders. This section will outline how the dashboard can be shared with relevant teams or individuals. |
+| 1️⃣2️⃣        | 📌 **Conclusion**                                      | Wrap-up with key benefits and how the dashboard impacts decision-making. |
+| 1️⃣3️⃣        | 👨‍💻 **About the Author**                                     | Your details (name, contact, LinkedIn) for credit or reference. |
+
+---
+
+> ✅ Use this table to guide readers through your README step-by-step  
+> 📎 Add anchor links to each section (optional) for better GitHub navigation  
+
+
+
 ## 🚨 Business Problem
 
 The management was facing difficulties in tracking and managing their business operations across multiple departments. Financial data was stored in scattered Excel files, making it hard to monitor performance, spot trends, or take timely actions. Without a centralized system, they lacked visibility into overall business health, which affected strategic planning and profitability.
@@ -361,7 +386,133 @@ This analysis equips your business with the insight to manage costs while maximi
 
 ---
 
+# 💳 Payment Overview Analysis
 
+This page delivers a comprehensive breakdown of **organizational payment trends** over multiple time periods and categories. With interactive and visually enriched insights, it helps uncover how funds are allocated and tracks changes in payment patterns over the years.
+
+![image](https://github.com/user-attachments/assets/0debd8b7-3033-4f25-adf6-737178b7409b)
+
+
+---
+
+## 📈 Visual 1: Payment Trend Over Time
+
+An interactive **line chart** visualizes payments distributed across:
+
+- 📅 **Financial Year** (2017–2021)
+- 📆 Drill-down: **Quarter → Month**
+
+This allows users to deeply explore when the highest payments occurred and how expenses evolved throughout the year.
+
+### 🔍 Data Highlights:
+| Financial Year | Total Payment |
+|----------------|----------------|
+| 2017-18        | ₹819,032       |
+| 2018-19        | ₹4,940,894     |
+| 2019-20        | ₹9,007,164     |
+| 2020-21        | ₹9,127,394     |
+| **Grand Total**| **₹23,894,484**|
+
+🧩 Insight: Payments showed consistent growth year over year, with a major spike observed from 2018-19 onwards.
+
+---
+
+## 🍩 Visual 2: Category-wise Payments
+
+A **donut chart** represents how payments are distributed across various categories, offering insights into the nature of expenses.
+
+### 📊 Category-wise Breakdown:
+| Payment Category                              | Amount (₹)   |
+|-----------------------------------------------|--------------|
+| Payment - Credit Expenses                     | 10,046,588   |
+| Transfer of Net Profit to Retained Earnings   | 8,191,236    |
+| Bank to Cash Transfer                         | 2,177,866    |
+| New Loan Raised @ 6%                          | 1,287,254    |
+| Payment of Final Dividends                    | 769,600      |
+| Payment of Interim Dividends                  | 750,580      |
+| Tax Payment for the Previous Year             | 671,360      |
+
+✨ **Net Sales** is elegantly displayed in the **center of the donut** as a card visual – keeping business context upfront while analyzing expenses.
+
+---
+
+## 🎯 Purpose of This Page
+
+This page helps businesses:
+
+- 📊 Analyze payment behaviors across time and categories
+- 🧮 Track financial obligations like taxes, dividends, and retained earnings
+- 💡 Identify major spending heads and optimize future budgets
+- 🔁 Monitor cyclical patterns in payments through drilldowns (Year > Quarter > Month)
+
+---
+
+## 🛠️ How to Use
+
+1. **Use Drill-downs** in the line chart to explore monthly or quarterly payment trends.
+2. **Review Category Spend** using the donut chart to identify high-expense areas.
+3. **Observe Net Sales** placed at the center of the donut chart for business context.
+
+---
+
+## ✅ Conclusion
+
+The Payment Overview Analysis page serves as a strategic tool to understand payment flows, visualize major expenditures, and support financial planning. With dynamic filtering and clean visuals, it allows for an intuitive and data-driven assessment of financial activity. 📊💸📈
+
+---
+
+> 💬 *"To control your finances, first understand your payments."*
+
+## 🛠️ Key Dashboard Features
+
+- 🎯 **Drillthrough Functionality**: Clicking on any table or chart element enables a “Details” button that leads to a focused drill-through page showing a full data breakdown.
+  
+- 🔄 **Sync Slicers**: Filters like Date, Department, or Category sync across all report pages — ensuring consistency in exploration.
+
+- 🎛️ **Dynamic Buttons & Navigation**: Custom buttons provide smooth navigation between pages, while visibility toggles (like showing/hiding charts) enhance UX.
+
+- 👁️ **Conditional Formatting**: Automatically highlights spikes in expenses, profit dips, or revenue jumps.
+
+- ⏳ **Time Intelligence**: Uses DAX to enable YoY, QoQ, MoM comparisons.
+
+- 📱 **Responsive Layout**: Optimized layout works well on different screen sizes when viewed in Power BI Service or mobile app.
+
+---
+
+## ⚙️ Tech Stack
+
+- Power BI Desktop  
+- Excel (.xlsx) Files  
+- Power BI Service  
+- DAX, Power Query  
+- Power BI Gateway for Auto Refresh  
+
+---
+## 🔐 Security Implementation
+
+### 🔹 Row-Level Security (RLS)
+User-specific access implemented — for example, Sales Managers can only view their department data.
+
+### 🔹 Page-Level Security
+Through navigation & button logic, certain users are restricted from accessing non-relevant report pages.
+
+---
+
+## 🔁 Scheduled Data Refresh
+
+Deployed on Power BI Service with **Personal Gateway + Scheduled Refresh** enabled to keep insights real-time and reliable.
+
+![image](https://github.com/user-attachments/assets/8fe22bd0-692e-4ed3-9df7-8671569e5551)
+
+---
+
+## 🔁 Sharing the Dashboard
+After the scheduled refresh is set, the dashboard will be shared with relevant stakeholders according to the following process:
+1. Publish the dashboard to Power BI Service.
+2. Share the dashboard link or embed it within a company portal or report.
+3. Set permissions based on user roles for secure access.
+
+---
 
 ## 📌 Conclusion
 
@@ -376,3 +527,7 @@ Ultimately, this dashboard transforms scattered financial data into an intuitive
 
 ---
 
+## 👨‍💻 About the Author
+- **Name**: Goutam Kuir
+- **Contact**: gkuiri26@gmail.com
+- **LinkedIn**: [Goutam Kuir](https://www.linkedin.com/in/goutam-kuir) 
