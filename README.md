@@ -530,4 +530,6 @@ Ultimately, this dashboard transforms scattered financial data into an intuitive
 ## 👨‍💻 About the Author
 - **Name**: Goutam Kuir
 - **Contact**: gkuiri26@gmail.com
-- **LinkedIn**: [Goutam Kuir](https://www.linkedin.com/in/goutam-kuir) 
+- **LinkedIn**: [Goutam Kuir](https://www.linkedin.com/in/goutam-kuiri-949b632a6)
+- **Medium**: [Goutam Kuir](https://medium.com/@goutamkuiri)
+
