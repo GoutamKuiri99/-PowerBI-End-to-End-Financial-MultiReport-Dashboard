@@ -50,6 +50,29 @@ The dashboard pulls data from the following Excel files:
 
 This page provides a snapshot of all critical business KPIs — total revenue, expenses, net profit, and overall financial health. It's designed for CXOs and top-level decision-makers to quickly grasp the company’s financial standing.
 
+## 🔘 Details Button Functionality (Based on Overview Report)
+The **Details Button** enhances interactivity within the Overview Report by allowing users to dive deeper into specific segments of the data.
+![Screenshot 2025-04-13 105607](https://github.com/user-attachments/assets/e23288cf-8d7c-461d-8233-d05dd1e2fe64)
+
+**📌 Next Steps**
+
+![image](https://github.com/user-attachments/assets/34215ed9-0ea3-4986-afe5-b9e18a9d51c8)
+
+![image](https://github.com/user-attachments/assets/9d2fe1c5-8449-4932-ab27-fcd90a44ac26)
+
+### ✨ How It Works:
+- The button is **initially disabled**.
+- When you **click on any bar or pie chart** from the Overview Report (e.g., Revenue, Expenses, Payment), the **Details Button gets enabled and turns red**.
+- Clicking the now-active button takes you to a **dedicated details page**, showing a **breakdown of the selected category**.
+
+### 🎯 Purpose:
+This feature allows users to:
+- Explore data at a granular level
+- Understand what contributes to each category
+- Make better data-driven decisions based on detailed insights
+
+> Example: Click on the "Expenses" section in the pie chart, then click the red Details button to view a detailed breakdown of all expense components.
+
 
 ## 📊 Overview Details Summary Report
 
@@ -133,10 +156,210 @@ The **stacked bar chart** compares **Revenue vs Expenses** at a **country level*
 ![image](https://github.com/user-attachments/assets/e98c7a4c-f42c-439a-949e-286d360c4a15)
 Displays trends in revenue generation across time periods, and product lines. Helps identify top-performing segments, revenue growth patterns, and seasonal variations.
 
+## 💰 Revenue Details Summary Report
+
+The **Revenue Details Summary Report** offers an in-depth breakdown of revenue streams through interactive visuals, making it easier to analyze income sources and regional contributions.
+
+![image](https://github.com/user-attachments/assets/289e7466-6d05-4314-9753-a17a9ee95cd2)
+
+### 📊 Matrix Visual (Category-wise Breakdown)
+
+This matrix visual presents revenue segmented by **main categories** and their associated **subcategories**:
+
+- **Main Categories:**
+  - Revenue
+  - Others
+
+- **Subcategories/Details:**
+  - Credit Sales  
+  - Cash Sales  
+  - Dividend Income  
+  - Exchange Gain and Loss  
+  - Interest Income  
+  - Sales Return  
+
+This helps in understanding:
+- What components contribute to total revenue
+- The balance between different revenue sources (e.g., cash vs credit)
+- Adjustments or reductions in revenue (e.g., returns, losses)
+
+### 🌍 Treemap Visual (Country-wise Distribution)
+
+The treemap visual displays **country-wise revenue contribution**, where each block represents a country sized by its revenue share.
+
+This visual helps:
+- Identify top revenue-generating countries
+- Compare regional performance at a glance
+- Detect low-performing markets
+
+### 🎯 Purpose
+
+This report empowers stakeholders to:
+- Monitor and analyze the composition of revenue
+- Evaluate performance across sales channels and regions
+- Make data-backed decisions to optimize financial outcomes
+
+
+## 📈 Sales Overview Details (Financial Year-wise)
+
+This visual presents a clear overview of **Net Sales across different financial years** using a dynamic and color-coded column chart. It helps users track performance growth and identify key trends year by year.
+
+![image](https://github.com/user-attachments/assets/e1c1e97a-af8d-44ce-8aea-586982c9323c)
+
+### 🔍 Chart Description:
+
+- **Type**: Column Chart
+- **Title**: FY Wise Net Sales Trends
+- **Y-Axis**: Net Sales (in ₹)
+- **X-Axis**: Financial Years (2017-18 to 2020-21)
+- **Color Scale**:  
+  - 🔴 Red = Low Sales  
+  - 🟡 Yellow = Moderate Sales  
+  - 🟢 Green = High Sales  
+
+### 📈 Data Highlights:
+
+| Financial Year | Net Sales (₹) | Sales Level   |
+|----------------|----------------|----------------|
+| 2017-18        | 1,070,386      | 🔴 Low         |
+| 2018-19        | 7,791,278      | 🟡 Moderate    |
+| 2019-20        | 12,087,838     | 🟢 High        |
+| 2020-21        | 13,267,782     | 🟢 Highest     |
+
+### 🎯 Key Insights:
+
+- Sales increased **consistently** over the years.
+- The **highest growth** was seen in **FY 2020-21**.
+- A dynamic legend (color scale) visually shows sales strength from **1.07M to 13.27M**.
+- Provides a quick snapshot of business growth over time.
+
+### ✅ Business Use Case:
+
+This visual helps:
+- Monitor historical sales trends  
+- Identify successful years for strategic planning  
+- Understand the impact of decisions on yearly sales  
+- Drill down into high/low performance years for more detail
+
+> 💡 Click on any bar to enable the **Details** button and navigate to the detailed sales breakdown report.
+
+# Sales Summary Details Analysis
+
+![image](https://github.com/user-attachments/assets/7f1a9431-0f1b-4d2d-8db6-f383c3c481ef)
+
+# 📊 Sales Trend and YOY Growth Page
+
+This page presents a detailed analysis of **sales trends** and **Year-on-Year (YOY) growth** across different financial years, months, and quarters. It allows users to interactively explore sales performance over time, compare different periods, and easily spot trends with color-coded visualizations. 🌈📈
+
+![image](https://github.com/user-attachments/assets/da9625d5-8925-4063-8c0d-02d23dc7a376)
+
+![image](https://github.com/user-attachments/assets/bc0c7858-a014-4f55-84a9-eb6d3256febb)
+
+![image](https://github.com/user-attachments/assets/02d6cc61-8180-4169-8973-8f2d49710114)
+
+## 🚀 Features
+
+### 🔘 1. Interactive Buttons
+Switch between different time granularities using toggle buttons:
+- 🗓️ **Year** – View sales data by financial year.
+- 📅 **Month** – Breakdown of monthly sales performance.
+- 🧮 **Quarter** – Explore sales trends on a quarterly basis.
+
+### 📊 2. Small Multiple Bar Chart
+Sales data is displayed using **small multiple bar charts**:
+- 📌 Easy visual comparison across years, months, or quarters.
+- 🔄 Auto-update when toggling between Year, Month, or Quarter.
+
+### 📅 3. Financial Year Analysis (2017–2021)
+Focuses on the **financial years** from 2017-18 to 2020-21:
+- 🟢 **2017-18**: Sales = `1,070,386` (YOY Growth = `0%` – First year of business)
+- 🟡 **2018-19**: Sales = `7,791,278` (YOY Growth = `627.89%`)
+- 🟡 **2019-20**: Sales = `12,087,838` (YOY Growth = `55.15%`)
+- 🔴 **2020-21**: Sales = `13,267,782` (YOY Growth = `36.99%`)
+
+### 🌈 4. Color-Coded Performance Visualization
+Sales bars are color-coded to highlight performance levels:
+- ✅ **Green (Max Sales)** – Highest performance
+- 🟨 **Yellow (Medium Sales)** – Moderate performance
+- ❌ **Red (Min Sales)** – Lowest performance
+
 ---
 
+## 🎯 Purpose of This Page
+The goal of this page is to deliver an **interactive and intuitive experience** that allows users to:
+- 📈 Track sales performance across time
+- 🧠 Identify trends in YOY growth
+- 🧩 Make informed decisions based on historical data insights
+
+---
+
+## 🛠️ How to Use
+1. **Click the Buttons**: Switch views between **Year**, **Month**, or **Quarter**.
+2. **Watch the Colors**: 
+   - 🟢 Green = High performance
+   - 🟨 Yellow = Moderate
+   - 🔴 Red = Low performance
+3. **Explore the Trends**: Read the bar charts to track growth or dips and strategize accordingly.
+
+---
+
+## ✅ Conclusion
+This page serves as a powerful tool to visualize and analyze business performance across multiple time periods. With **interactive elements** and **dynamic color formatting**, it becomes easier than ever to gain actionable insights and make **data-driven decisions**. 💡📊
 
 
+> 💬 *“Turning numbers into knowledge!”*
+
+
+---
+### 📉 Expenses Page  
+Helps analyze operational and fixed costs with visuals that highlight monthly spikes or savings opportunities.
+
+![image](https://github.com/user-attachments/assets/70a5f9b3-d5fc-452c-a195-5263024b78bd)  
+
+# 💰 Headwise Expenses Analysis
+This page provides a comprehensive breakdown of **expenses categorized by different heads**, enabling a detailed understanding of where and how resources are being spent. It allows businesses to track, compare, and control their expenditures more effectively over time.
+
+![image](https://github.com/user-attachments/assets/834fa76b-3947-444f-b3ae-63c268c3e4af)
+
+# 🛒 Purchase Overview Analysis
+This page provides a detailed overview of the organization's purchasing activity, offering powerful insights into purchase trends and procurement efficiency. It helps stakeholders monitor and analyze purchasing patterns over time to support smarter, data-driven decision-making.
+
+![image](https://github.com/user-attachments/assets/6f313acf-2331-4612-9104-1e417fb94e18)
+
+# 🔁 Purchase vs Revenue Comparison Analysis
+
+This page offers a side-by-side analysis of **Purchases vs Revenue**, helping businesses evaluate how procurement costs align with the income generated. It delivers key insights into **profitability**, **cost efficiency**, and **business growth trends**.
+
+![image](https://github.com/user-attachments/assets/bf5105ab-a37e-4d7f-af61-25b7c689c80c)
+
+
+## 📌 Key Features
+
+### 💵 1. Revenue vs Purchase Tracking
+- Compare **Total Purchase Cost** with **Revenue Earned** across time.
+- Visual indicators highlight whether revenue growth is outpacing procurement expenses.
+
+### 📅 2. Time-Based Comparison
+- Analyze trends by:
+  - 📆 **Year**
+  - 📈 **Quarter**
+  - 📊 **Month**
+- Understand seasonal shifts in profitability and operational efficiency.
+
+## 🎯 Purpose of This Page
+
+The goal of this analysis is to evaluate **how effectively purchases are being converted into revenue**. It helps stakeholders:
+
+- ⚖️ Balance procurement and sales
+- 🔎 Monitor profitability trends
+- 📉 Identify inefficiencies or overspending
+- 💰 Optimize purchasing strategies to boost margins
+
+## ✅ Conclusion
+
+This analysis equips your business with the insight to manage costs while maximizing revenue. It provides a clear lens into how purchases translate into earnings — enabling smarter financial decisions and stronger profit strategies. 📊💼📈
+
+---
 
 
 
